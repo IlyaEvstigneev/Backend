@@ -1,3 +1,5 @@
+package enums;
+
 public enum StudyProfile {
 
     MEDICINE("Медицина"), PHYSICS ("Физика"), LINGUISTICS

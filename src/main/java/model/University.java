@@ -1,3 +1,7 @@
+package model;
+
+import enums.StudyProfile;
+
 public class University {
     private String id;
     private String fullName;
