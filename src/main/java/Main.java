@@ -1,13 +1,18 @@
+import java.io.IOException;
+import java.util.List;
+
 public class Main {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
 
-        Student student = new Student("Evstigneev", "12345", 12, 13.8f);
+        List<University> universityList = XlsReader.readUniversities("src/main/resources/universityInfo.xlsx");
+        for(University university : universityList){
+            System.out.println(university);
+        }
+        List<Student> studentList = XlsReader.readStudents("src/main/resources/universityInfo.xlsx");
+        for (Student student : studentList){
+            System.out.println(student);
+        }
 
-        University university = new University("123", "Московский авиационный институт",  "МАИ", 40, StudyProfile.ENGINEER);
-
-        System.out.println(student);
-
-        System.out.println(university);
     }
 }
