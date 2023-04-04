@@ -1,9 +1,8 @@
 package util;
 
-import comparator.*;
-
 import enums.StudentComparatorType;
 import enums.UniversityComparatorType;
+import enums.comparator.*;
 
 public class ComparatorUtil {
     private ComparatorUtil(){

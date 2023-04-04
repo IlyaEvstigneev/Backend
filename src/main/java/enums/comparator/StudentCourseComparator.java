@@ -1,4 +1,4 @@
-package comparator;
+package enums.comparator;
 
 import model.Student;
 

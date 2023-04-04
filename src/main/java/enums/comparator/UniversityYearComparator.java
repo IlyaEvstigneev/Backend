@@ -1,7 +1,6 @@
-package comparator;
+package enums.comparator;
 
 import model.University;
-import org.apache.commons.lang3.StringUtils;
 
 public class UniversityYearComparator implements UniversityComparator{
     @Override
